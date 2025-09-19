@@ -1,0 +1,10 @@
+<div class="social-links">
+  {%- if site.social -%}
+    {%- for social in site.social -%}
+      <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer">
+        {{ social.name }}
+      </a>
+      {%- unless forloop.last -%} • {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+</div>

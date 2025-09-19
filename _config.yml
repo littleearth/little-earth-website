@@ -1,0 +1,63 @@
+# Site settings
+title: Little Earth Solutions
+description: Delphi development tools and libraries
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.littleearthsolutions.net" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  products:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Products
+    url: /products/
+  - title: Links
+    url: /links/
+  - title: About
+    url: /about/
+
+# Social links
+social:
+  - name: GitHub
+    url: https://github.com/littleearth
+  - name: Website
+    url: https://littleearthsolutions.net
+
+# Author
+author:
+  name: Little Earth Solutions
+  email: support@littleearthsolutions.net
+  description: Delphi development tools and libraries
+  url: https://littleearthsolutions.net
