@@ -6,9 +6,8 @@ title: Home
 <div class="hero-section">
   <div class="hero-content">
     <img src="{{ '/assets/littleearthsolutions-text.png' | relative_url }}" alt="Little Earth Solutions" class="hero-logo">
-    <h1 class="hero-title">Delphi Development Tools & Libraries</h1>
-    <p class="hero-description">Professional-grade tools and libraries for Delphi developers, crafted with care and attention to detail.</p>
-    <a href="/products/" class="btn btn-primary btn-large">Explore Our Products</a>
+    <h1 class="hero-title">Software development</h1>
+    <p class="hero-description">Crafted with care and attention to detail.</p>
   </div>
 </div>
 
