@@ -29,11 +29,12 @@ $border-color: #e9ecef;
   width: 100%;
   height: 200%;
   background-image: 
-    radial-gradient(2px 2px at 20px 30px, #eee, transparent),
-    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(2px 2px at 20px 30px, #ffffff, transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.9), transparent),
     radial-gradient(1px 1px at 90px 40px, #fff, transparent),
-    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
-    radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(2px 2px at 160px 30px, #ffffff, transparent),
+    radial-gradient(1px 1px at 180px 60px, rgba(135,206,235,0.7), transparent);
   background-repeat: repeat;
   background-size: 200px 100px;
   animation: move-stars 100s linear infinite;
@@ -41,10 +42,11 @@ $border-color: #e9ecef;
 
 .stars-layer:nth-child(2) {
   background-image: 
-    radial-gradient(1px 1px at 50px 50px, #fff, transparent),
-    radial-gradient(1px 1px at 100px 100px, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 150px 25px, #eee, transparent),
-    radial-gradient(1px 1px at 200px 75px, rgba(255,255,255,0.5), transparent);
+    radial-gradient(1px 1px at 50px 50px, #ffffff, transparent),
+    radial-gradient(1px 1px at 100px 100px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 150px 25px, #ffffff, transparent),
+    radial-gradient(1px 1px at 200px 75px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 250px 50px, rgba(255,182,193,0.6), transparent);
   background-size: 300px 150px;
   animation: move-stars 150s linear infinite reverse;
 }
@@ -52,9 +54,11 @@ $border-color: #e9ecef;
 .stars-layer:nth-child(3) {
   background-image: 
     radial-gradient(1px 1px at 25px 25px, rgba(255,255,255,0.9), transparent),
-    radial-gradient(1px 1px at 75px 75px, #fff, transparent),
+    radial-gradient(1px 1px at 75px 75px, #ffffff, transparent),
     radial-gradient(1px 1px at 125px 50px, rgba(255,255,255,0.8), transparent),
-    radial-gradient(1px 1px at 175px 100px, #eee, transparent);
+    radial-gradient(1px 1px at 175px 100px, #ffffff, transparent),
+    radial-gradient(1px 1px at 225px 25px, rgba(255,255,224,0.7), transparent),
+    radial-gradient(1px 1px at 275px 125px, rgba(255,255,255,0.5), transparent);
   background-size: 400px 200px;
   animation: move-stars 200s linear infinite;
 }
@@ -68,6 +72,7 @@ $border-color: #e9ecef;
 body {
   position: relative;
   z-index: 1;
+  background: #0a0a0a; // Dark background to show white stars
 }
 
 // Custom styles for Little Earth Solutions
