@@ -12,13 +12,6 @@
     {%- endif -%}
 </head>
 <body>
-    <!-- Parallax star background -->
-    <div class="parallax-container">
-        <div class="stars-layer"></div>
-        <div class="stars-layer"></div>
-        <div class="stars-layer"></div>
-    </div>
-    
     <header class="site-header">
         <div class="wrapper">
             <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
@@ -75,23 +68,5 @@
             </div>
         </div>
     </footer>
-    
-    <!-- Parallax scrolling script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const starsLayers = document.querySelectorAll('.stars-layer');
-            
-            window.addEventListener('scroll', function() {
-                const scrolled = window.pageYOffset;
-                const parallaxSpeed = [0.5, 0.3, 0.1]; // Different speeds for each layer
-                
-                starsLayers.forEach((layer, index) => {
-                    const speed = parallaxSpeed[index];
-                    const yPos = -(scrolled * speed);
-                    layer.style.transform = `translateY(${yPos}px)`;
-                });
-            });
-        });
-    </script>
 </body>
 </html>
