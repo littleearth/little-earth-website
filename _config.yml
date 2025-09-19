@@ -7,11 +7,18 @@ url: "https://www.littleearthsolutions.net" # the base hostname & protocol for y
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-commonmark-ghpages
+  - jekyll-include-cache
 
 # Collections
 collections:
@@ -56,3 +63,44 @@ author:
   email: support@littleearthsolutions.net
   description: Delphi development tools and libraries
   url: https://littleearthsolutions.net
+
+# Chirpy theme settings
+avatar: /assets/littleearthsolutions-text.png
+timezone: UTC
+lang: en
+
+# Chirpy theme features
+theme_mode:
+  light: true
+  dark: true
+  auto: true
+
+# Social links for Chirpy
+social:
+  - name: GitHub
+    url: https://github.com/littleearth
+  - name: Website
+    url: https://littleearthsolutions.net
+
+# Chirpy theme appearance
+tabs:
+  home: home
+  archive: archive
+  categories: categories
+  tags: tags
+  collections: collections
+  about: about
+
+# Chirpy theme layout
+layout:
+  type: home
+  profile_panel:
+    enabled: true
+    avatar: /assets/littleearthsolutions-text.png
+    title: Little Earth Solutions
+    subtitle: Delphi Development Tools & Libraries
+    social_links:
+      - name: GitHub
+        url: https://github.com/littleearth
+      - name: Website
+        url: https://littleearthsolutions.net
