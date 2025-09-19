@@ -5,20 +5,20 @@ source "https://rubygems.org"
 # latest version, run `bundle update`. To install a specific version, run
 # `bundle install jekyll -v x.x.x`.
 
-# Jekyll and Chirpy theme for GitHub Actions
 gem "jekyll", "~> 4.3.0"
-gem "jekyll-theme-chirpy", "~> 7.3.1"
 
-# Plugins
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "minima", "~> 2.5"
+
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
+
+# If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-paginate"
-  gem "jekyll-gist"
-  gem "jekyll-redirect-from"
-  gem "jekyll-commonmark-ghpages"
-  gem "jekyll-include-cache"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

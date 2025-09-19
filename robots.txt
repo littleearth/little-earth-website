@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://littleearth.github.io/sitemap.xml

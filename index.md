@@ -1,32 +1,25 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
-# Welcome to Little Earth Solutions
+# Little Earth Solutions
 
-Professional-grade tools and libraries for Delphi developers, crafted with care and attention to detail.
+Welcome to Little Earth Solutions, your source for Delphi development tools and libraries.
 
 ## Our Products
 
-### [Backup and Shutdown](/products/backup-and-shutdown/)
-Automated backup and shutdown utility for Windows systems.
+* [Backup and Shutdown](/products/backup-and-shutdown/)
+* [Signature Wizard](/products/signature-wizard/)
+* [delphiXERO](/products/delphixero/)
+* [Delphi Library Helper](/products/delphi-library-helper/)
+* [NetReflector](/products/netreflector/)
+* [LazyREST](/products/lazyrest/)
 
-### [Signature Wizard](/products/signature-wizard/)
-Create and manage digital signatures with ease.
+## Recent Updates
 
-### [delphiXERO](/products/delphixero/)
-Xero API integration library for Delphi applications.
+{%- for post in site.posts limit:5 -%}
+* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+{%- endfor -%}
 
-### [Delphi Library Helper](/products/delphi-library-helper/)
-Streamline your Delphi library management workflow.
-
-### [NetReflector](/products/netreflector/)
-Powerful .NET assembly inspection and reflection tool.
-
-### [LazyREST](/products/lazyrest/)
-Lightweight REST client library for Delphi.
-
----
-
-[View All Products →](/products/)
+[View all posts](/blog/)
