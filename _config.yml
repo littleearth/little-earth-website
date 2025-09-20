@@ -2,13 +2,14 @@
 title: Little Earth Solutions
 description: Delphi development tools and libraries
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.littleearthsolutions.net" # the base hostname & protocol for your site
+
+remote_theme: pages-themes/time-machine@v0.2.0
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
