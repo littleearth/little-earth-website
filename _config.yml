@@ -1,9 +1,10 @@
 # Site settings
 title: Little Earth Solutions
-description: Delphi development tools and libraries
+description: Open source software projects developed in our ever decreasing free time.
 baseurl: "" # the subpath of your site, e.g. /blog
+show_downloads: false
 
-remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Build settings
 markdown: kramdown
@@ -14,35 +15,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Collections
-collections:
-  products:
-    output: true
-    permalink: /:collection/:name/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "products"
-    values:
-      layout: "product"
-
-# Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Products
-    url: /products/
-  - title: Links
-    url: /links/
-  - title: About
-    url: /about/
 
 # Social links
 social:
@@ -55,5 +27,5 @@ social:
 author:
   name: Little Earth Solutions
   email: support@littleearthsolutions.net
-  description: Delphi development tools and libraries
+  description: Open source software projects developed in our ever decreasing free time.
   url: https://littleearthsolutions.net

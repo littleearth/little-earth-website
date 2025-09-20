@@ -1,44 +1,103 @@
 ---
-layout: page
-title: Home
+title: Little Earth Solutions
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
-    <h1 class="hero-title">Software development</h1>
-    <p class="hero-description">Crafted with care and attention to detail.</p>
-  </div>
-</div>
+# Little Earth Solutions
 
-<div class="products-preview">
-  <h2>Our Products</h2>
-  <div class="products-grid">
-    <div class="product-card">
-      <h3><a href="/products/backup-and-shutdown/">Backup and Shutdown</a></h3>
-      <p>Automated backup and shutdown utility for Windows systems.</p>
-    </div>
-    <div class="product-card">
-      <h3><a href="/products/signature-wizard/">Signature Wizard</a></h3>
-      <p>Create and manage digital signatures with ease.</p>
-    </div>
-    <div class="product-card">
-      <h3><a href="/products/delphixero/">delphiXERO</a></h3>
-      <p>Xero API integration library for Delphi applications.</p>
-    </div>
-    <div class="product-card">
-      <h3><a href="/products/delphi-library-helper/">Delphi Library Helper</a></h3>
-      <p>Streamline your Delphi library management workflow.</p>
-    </div>
-    <div class="product-card">
-      <h3><a href="/products/netreflector/">NetReflector</a></h3>
-      <p>Powerful .NET assembly inspection and reflection tool.</p>
-    </div>
-    <div class="product-card">
-      <h3><a href="/products/lazyrest/">LazyREST</a></h3>
-      <p>Lightweight REST client library for Delphi.</p>
-    </div>
-  </div>
-  <div class="text-center">
-    <a href="/products/" class="btn btn-outline">View All Products</a>
-  </div>
-</div>
+Open source software projects developed in our ever decreasing free time.
+
+## About
+
+Little Earth Solutions specializes in Delphi development tools and libraries. We create utilities and components that help Delphi developers be more productive and efficient.
+
+### Our Mission
+
+"It's not my fault, Delphi made me do it."
+
+We understand the challenges that Delphi developers face and create tools to make development easier and more enjoyable.
+
+### Location
+
+Based in Australia, we serve the global Delphi development community.
+
+## Our Products
+
+### Backup and Shutdown
+A utility for automated backup and system shutdown operations.
+
+**Features:**
+- Automated backup scheduling
+- System shutdown management
+- Configurable backup locations
+- Logging and monitoring
+
+**Requirements:**
+- Windows operating system
+- Delphi 7 or later
+
+### Signature Wizard
+Tool for creating and managing digital signatures in Delphi applications.
+
+### delphiXERO
+XERO accounting API for Delphi with OAuth2 support.
+
+[View on GitHub](https://github.com/littleearth/delphiXERO)
+
+### Delphi Library Helper
+Tool to assist Delphi developers configuring library folders.
+
+**Features:**
+- Delphi Alexandria support
+- Android64, OSX64 and OSXARM64 support
+- Browse and Debug DCU paths
+- Template loading improvements
+- Clean-up options and command line parameters
+- Path validation and management
+
+**Requirements:**
+- Windows operating system
+- Delphi 7 or later
+
+**Installation:**
+```bash
+git clone https://github.com/littleearth/delphi-library-helper.git
+```
+
+[View on GitHub](https://github.com/littleearth/delphi-library-helper)
+
+### NetReflector
+TCP and UDP port reflector for server migrations and testing.
+
+[View on GitHub](https://github.com/littleearth/net-reflector)
+
+### LazyREST
+Quick HTTP(s) web server that accepts JSON data for simple endpoints.
+
+### Mobile Image Creator
+Creating Icons and Launchers for Delphi Mobile Applications.
+
+[View on GitHub](https://github.com/littleearth/mobile-image-creator)
+
+## Links
+
+### News
+- [Begin End](https://www.beginend.net/)
+
+### Delphi links
+- [Awesome Pascal](https://github.com/Fr0sT-Brutal/awesome-pascal)
+- [MARS - Rest Library](https://github.com/andrea-magni/MARS)
+
+### Support
+- [GitHub Issues](https://github.com/littleearth)
+
+## Contact
+
+- **Website**: [littleearthsolutions.net](https://littleearthsolutions.net)
+- **GitHub**: [@littleearth](https://github.com/littleearth)
+- **Email**: support@littleearthsolutions.net
+
+## Support Our Work
+
+If you find our tools useful, consider supporting our work:
+
+[Buy me a coffee](https://www.buymeacoffee.com/littleearth)
