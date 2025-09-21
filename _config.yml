@@ -4,7 +4,7 @@ description: Open source software projects developed in our ever decreasing free
 baseurl: "" # the subpath of your site, e.g. /blog
 show_downloads: false
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/modernist@v0.2.0
 
 # Build settings
 markdown: kramdown

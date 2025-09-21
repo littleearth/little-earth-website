@@ -80,7 +80,7 @@ Creating Icons and Launchers for Delphi Mobile Applications.
 
 - **Website**: [littleearthsolutions.net](https://littleearthsolutions.net)
 - **GitHub**: [@littleearth](https://github.com/littleearth)
-- **Email**: support@littleearthsolutions.net
+- **Email**: support (at) littleearthsolutions.net
 
 ## Support Our Work
 
