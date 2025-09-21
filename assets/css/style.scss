@@ -11,12 +11,12 @@ header h1 {
   padding: 0;
   font-size: 0;
   line-height: 0;
-  height: 50px;
+  height: 60px;
   background-image: url('/assets/littleearthsolutions-text.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
-  width: 300px;
+  width: 400px;
 }
 
 // Remove any padding from the header that might affect logo positioning
@@ -27,8 +27,8 @@ header {
 // Responsive adjustments for mobile
 @media screen and (max-width: 580px) {
   header h1 {
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 300px;
   }
   
   header {
