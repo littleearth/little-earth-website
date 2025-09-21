@@ -55,6 +55,7 @@ TCP and UDP port reflector for server migrations and testing.
 
 ### LazyREST
 LazyREST is a quick HTTP(s) web server that will accept JSON data for any simple endpoint. It stores data in flat JSON files to allow quick setup for mock and testing environments.
+
 [View on GitHub](https://github.com/littleearth/lazy-rest)
 
 ### Mobile Image Creator
@@ -73,6 +74,7 @@ Creating Icons and Launchers for Delphi Mobile Applications.
 
 ### Support
 - [GitHub Issues](https://github.com/littleearth)
+- [Discord](https://discord.gg/bJgWgXwCBB)
 
 ## Contact
 
