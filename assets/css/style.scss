@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 // Custom logo styles for Little Earth Solutions
-.site-header h1 {
+// Replace the theme's h1 text with our logo
+header h1 {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -16,33 +17,28 @@
   text-shadow: rgba(255,255,255,0.9) 0 1px 0;
 }
 
-.site-logo {
+// Hide the text content and show logo instead
+header h1::before {
+  content: '';
+  background-image: url('{{ "/assets/littleearthsolutions-text.svg" | relative_url }}');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   height: 40px;
-  width: auto;
-  max-width: 200px;
-  vertical-align: middle;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
+  width: 200px;
+  display: inline-block;
 }
 
-// Ensure the logo displays properly in the header
-.site-header h1 img {
-  height: 40px;
-  width: auto;
-  max-width: 200px;
-  vertical-align: middle;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
+// Hide the actual text content
+header h1 {
+  font-size: 0;
+  line-height: 0;
 }
 
 // Responsive adjustments for mobile
 @media screen and (max-width: 580px) {
-  .site-header h1 {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-  }
-  
-  .site-logo,
-  .site-header h1 img {
+  header h1::before {
     height: 35px;
+    width: 150px;
   }
 }

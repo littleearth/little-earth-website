@@ -2,18 +2,6 @@
 title: Little Earth Solutions
 ---
 
-<header class="site-header">
-  <h1>
-    <img src="{{ '/assets/littleearthsolutions-text.svg' | relative_url }}" alt="{{ site.title | escape }}" class="site-logo">
-    Little Earth Solutions
-  </h1>
-  <p>Open source software projects developed in our ever decreasing free time.</p>
-  <p class="view"><a href="https://github.com/littleearth/little-earth-website">View the Project on GitHub <small></small></a></p>
-  <ul>
-    <li><a href="https://github.com/littleearth/little-earth-website">View On <strong>GitHub</strong></a></li>
-  </ul>
-</header>
-
 ## About
 
 Little Earth Solutions specializes in Delphi development tools and libraries. We create utilities and components that help Delphi developers be more productive and efficient.
