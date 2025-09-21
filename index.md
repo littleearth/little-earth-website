@@ -8,6 +8,28 @@ Little Earth Solutions specializes in Delphi development tools and libraries. We
 
 ## Our Products
 
+### Backup and Shutdown
+
+Backup your important data files using 7zip, Zip compression
+
+**Features:**
+- Multiple backup profiles.
+- Backup alerts, with email support.
+- Backup profile creation wizard.
+
+[View on Sourceforge](http://sourceforge.net/projects/bands/)
+
+### Signature Wizard
+
+Signature Wizard - Simple application for system administrators to install standard email signature for Microsoft Outlook.
+
+**Features:**
+- Guide your users through creating outlook email signatures
+- Create default values for fields (eg Phone number)
+- Create multiple templates as options (eg Template with or without a mobile phone number)
+
+[View on Sourceforge](http://sourceforge.net/projects/signaturewizard/)
+
 ### delphiXERO
 XERO accounting API for Delphi with OAuth2 support.
 
