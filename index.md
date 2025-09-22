@@ -90,4 +90,5 @@ Signature Wizard - Simple application for system administrators to install stand
 If you find our tools useful, consider supporting our work:
 
 [Buy me a coffee](https://www.buymeacoffee.com/littleearth)
+
 [Paypal](https://www.paypal.com/donate/?business=WAP53BTVXRT3S&no_recurring=0&item_name=Little+Earth+Solutions+creating+open+source+software&currency_code=AUD)
