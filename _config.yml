@@ -1,6 +1,6 @@
 # Site settings
 title: Little Earth Solutions
-description: Open source software projects developed in our ever decreasing free time.
+description: It's not my fault, Delphi made be do it.
 baseurl: "" # the subpath of your site, e.g. /blog
 show_downloads: false
 
@@ -27,5 +27,5 @@ social:
 author:
   name: Little Earth Solutions
   email: support@littleearthsolutions.net
-  description: Open source software projects developed in our ever decreasing free time.
+  description: It's not my fault, Delphi made be do it.
   url: https://littleearthsolutions.net

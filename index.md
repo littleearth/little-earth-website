@@ -4,9 +4,9 @@ title: Little Earth Solutions
 
 ## About
 
-Little Earth Solutions specializes in Delphi development tools and libraries. We create utilities and components that help Delphi developers be more productive and efficient.
+Little Earth Solutions creates Delphi applications and libraries. We create utilities and components that help Delphi developers be more productive and efficient.
 
-## Our Products
+## Products
 
 ### Backup and Shutdown
 
@@ -65,12 +65,15 @@ Creating Icons and Launchers for Delphi Mobile Applications.
 
 ## Links
 
-### News
+### Delphi news
 - [Begin End](https://www.beginend.net/)
 
 ### Delphi links
 - [Awesome Pascal](https://github.com/Fr0sT-Brutal/awesome-pascal)
+- [Project JEDI](https://github.com/project-jedi/)
 - [MARS - Rest Library](https://github.com/andrea-magni/MARS)
+- [ZeosLib](https://sourceforge.net/projects/zeoslib/)
+- [DelphiGoogleMap](https://github.com/EtheaDev/DelphiGoogleMap)
 
 ### Support
 - [GitHub Issues](https://github.com/littleearth)
