@@ -4,31 +4,9 @@ title: Little Earth Solutions
 
 ## About
 
-Little Earth Solutions creates Delphi applications and libraries. We create utilities and components that help Delphi developers be more productive and efficient.
+Little Earth Solutions creates applications and libraries. A primary focus is on the Delphi community
 
 ## Products
-
-### Backup and Shutdown
-
-Backup your important data files using 7zip, Zip compression
-
-**Features:**
-- Multiple backup profiles.
-- Backup alerts, with email support.
-- Backup profile creation wizard.
-
-[View on Sourceforge](http://sourceforge.net/projects/bands/)
-
-### Signature Wizard
-
-Signature Wizard - Simple application for system administrators to install standard email signature for Microsoft Outlook.
-
-**Features:**
-- Guide your users through creating outlook email signatures
-- Create default values for fields (eg Phone number)
-- Create multiple templates as options (eg Template with or without a mobile phone number)
-
-[View on Sourceforge](http://sourceforge.net/projects/signaturewizard/)
 
 ### delphiXERO
 XERO accounting API for Delphi with OAuth2 support.
@@ -63,6 +41,28 @@ Creating Icons and Launchers for Delphi Mobile Applications.
 
 [View on GitHub](https://github.com/littleearth/mobile-image-creator)
 
+### Backup and Shutdown
+
+Backup your important data files using 7zip, Zip compression
+
+**Features:**
+- Multiple backup profiles.
+- Backup alerts, with email support.
+- Backup profile creation wizard.
+
+[View on Sourceforge](http://sourceforge.net/projects/bands/)
+
+### Signature Wizard
+
+Signature Wizard - Simple application for system administrators to install standard email signature for Microsoft Outlook.
+
+**Features:**
+- Guide your users through creating outlook email signatures
+- Create default values for fields (eg Phone number)
+- Create multiple templates as options (eg Template with or without a mobile phone number)
+
+[View on Sourceforge](http://sourceforge.net/projects/signaturewizard/)
+
 ## Links
 
 ### Delphi news
@@ -90,3 +90,4 @@ Creating Icons and Launchers for Delphi Mobile Applications.
 If you find our tools useful, consider supporting our work:
 
 [Buy me a coffee](https://www.buymeacoffee.com/littleearth)
+[Paypal](https://www.paypal.com/donate/?business=WAP53BTVXRT3S&no_recurring=0&item_name=Little+Earth+Solutions+creating+open+source+software&currency_code=AUD)
