@@ -6,8 +6,6 @@ show_downloads: false
 
 remote_theme: pages-themes/modernist@v0.2.0
 
-github:
- - repository_url: https://github.com/littleearth?tab=repositories
 
 # Build settings
 markdown: kramdown
